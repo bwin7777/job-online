@@ -10,7 +10,7 @@
           div.mx-2(style="text-align: center; color: white")
             img.hide-xs-only(:src="require('/assets/images/zalo1.svg')" :height="24")
             .text-xs {{listNumber[random - 1]}}
-          div.mx-2(style="text-align: center; color: white")
+          div.mx-2(style="text-align: center; color: red")
             img.hide-xs-only(:src="require('/assets/images/mail1.svg')" :height="24")
             .text-xs hr.vieclamonline@gmail.com
     v-main
